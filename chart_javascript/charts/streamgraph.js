@@ -20,7 +20,7 @@ const acquisitionStreamgraphSpec = {
     },
 
     data: {
-        url: "../data/acquisition_by_year_department.csv",
+        url: "data/acquisition_by_year_department.csv",
         format: {
             type: "csv"
         }
