@@ -6,7 +6,7 @@ const publicArtWaffleSpec = {
     background: "#F7F5F0",
 
     data: {
-        url: "../data/melbourne_public_art_cleaned.csv",
+        url: "data/melbourne_public_art_cleaned.csv",
         format: {
             type: "csv"
         }
