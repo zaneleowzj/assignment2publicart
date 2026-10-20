@@ -125,7 +125,7 @@ function renderArtworks() {
 }
 
 // Load the CSV.
-Papa.parse("../data/melbourne_public_art_cleaned.csv", {
+Papa.parse("data/melbourne_public_art_cleaned.csv", {
   download: true,
   header: true,
   skipEmptyLines: true,
