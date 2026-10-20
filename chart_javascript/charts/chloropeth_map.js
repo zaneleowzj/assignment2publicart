@@ -27,7 +27,7 @@ if (!choroplethContainer) {
         },
 
         data: {
-            url: "../data/australia_states_fixed.geojson",
+            url: "data/australia_states_fixed.geojson",
             format: {
                 type: "json",
                 property: "features"
