@@ -17,7 +17,7 @@ const heatmapSpec = {
     },
 
     data: {
-        url: "../data/heatmap_states_australian_3category.csv",
+        url: "data/heatmap_states_australian_3category.csv",
         format: { type: "csv" }
     },
 
