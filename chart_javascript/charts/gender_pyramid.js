@@ -12,7 +12,7 @@ if (!genderContainer) {
         $schema: "https://vega.github.io/schema/vega-lite/v6.json",
 
         data: {
-            url: "../data/DAAO_Gender_By_Career_Decade.csv",
+            url: "data/DAAO_Gender_By_Career_Decade.csv",
             format: { type: "csv" }
         },
 
