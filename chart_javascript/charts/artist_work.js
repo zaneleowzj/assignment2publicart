@@ -12,7 +12,7 @@ if (!topArtistsContainer) {
         $schema: "https://vega.github.io/schema/vega-lite/v6.json",
 
         data: {
-            url: "data/QAGOMA_TOP_15_ARTISTS_BY_WORKS_WITH_GENDER.csv",
+            url: "data/QAGOMA_Top_15_Artists_by_Works_with_Gender.csv",
             format: {
                 type: "csv"
             }
