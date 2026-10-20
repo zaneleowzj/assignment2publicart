@@ -43,7 +43,7 @@ if (!choroplethContainer) {
                 lookup: "State",
                 from: {
                     data: {
-                        url: "../data/chloropleth_total_map.csv",
+                        url: "data/chloropleth_total_map.csv",
                         format: {
                             type: "csv",
                             parse: {
