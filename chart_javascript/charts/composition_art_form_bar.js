@@ -33,7 +33,7 @@ if (!artFormStackedBarContainer) {
         },
 
         data: {
-            url: "../data/art_form_by_decade.csv",
+            url: "data/art_form_by_decade.csv",
             format: {
                 type: "csv"
             }
