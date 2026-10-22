@@ -53,7 +53,7 @@ const artFormsSmallMultiplesSpec = {
     "columns": 3,
 
     "spec": {
-        "width": 230,
+        "width": 320,
         "height": 145,
 
         "mark": {
