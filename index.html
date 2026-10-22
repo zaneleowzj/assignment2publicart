@@ -160,27 +160,71 @@
 
 <!-- 02: WHERE — Chloropleth MAP            -->
 
-
 <section class="story-section" id="choropleth-section">
+
     <p class="section-number">02 / WHERE?</p>
 
-    <h2>Where are most of QAGOMA Artwork from? </h2>
+    <h2>How Are Mapped Artworks Distributed Across Australia?</h2>
 
     <p class="description">
-        Explore the numbers of Mapped Artwork in Queensland Art Gallery by State and Territory
+        Explore mapped artwork records across Australian states and
+        territories in the selected QAGOMA dataset.
     </p>
 
-    <div class="chart-card">
-        <h3>Mapped Artwork Records by State and Territory</h3>
+    <div class="chart-card choropleth-card">
 
-        <div id="choropleth_map">
-            <p>Loading Australian map...</p>
+        <div class="map-dashboard">
+
+            <!-- LEFT: CHOROPLETH MAP -->
+            <div class="map-panel">
+                <div id="choropleth_map">
+                    <p>Loading Australia map...</p>
+                </div>
+            </div>
+
+            <!-- RIGHT: SUMMARY STATISTICS -->
+            <aside class="stats-panel">
+
+                <div class="stat-card">
+                    <p class="stat-label">TOTAL MAPPED RECORDS</p>
+                    <h3>6,127</h3>
+                    <p class="stat-description">
+                        Across all states and territories
+                    </p>
+                </div>
+
+                <div class="stat-card">
+                    <p class="stat-label">HIGHEST CONTRIBUTION</p>
+                    <h3>Queensland</h3>
+                    <p class="stat-description">
+                        3,086 records · 50.4% of total
+                    </p>
+                </div>
+
+                <div class="stat-card">
+                    <p class="stat-label">LOWEST CONTRIBUTION</p>
+                    <h3>ACT</h3>
+                    <p class="stat-description">
+                        56 records · 0.9% of total
+                    </p>
+                </div>
+
+                <div class="stat-card insight-card">
+                    <p class="stat-label">KEY INSIGHT</p>
+                    <p>
+                        Queensland accounts for around half of all
+                        mapped records in this dataset.
+                    </p>
+                </div>
+
+            </aside>
         </div>
 
         <p class="source-note">
             Counts reflect mapped records in the selected QAGOMA
             dataset, not all artworks held in each state or territory.
         </p>
+
     </div>
 </section>
 
