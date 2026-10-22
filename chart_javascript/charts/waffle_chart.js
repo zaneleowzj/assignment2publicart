@@ -1,8 +1,8 @@
 const publicArtWaffleSpec = {
     $schema: "https://vega.github.io/schema/vega-lite/v6.json",
 
-    width: 330,
-    height: 330,
+    width: 600,
+    height: 650,
     background: "#F7F5F0",
 
     data: {
